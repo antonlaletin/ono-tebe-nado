@@ -1,8 +1,7 @@
 /* место для вашего кода */
-body{
-  padding: 0px 35px 0 35px;
-  margin-left: auto;
-  margin-right: auto;
+/* место для вашего кода */
+body {
+  margin: auto;
 }
 
 .header {
@@ -21,24 +20,24 @@ font-weight: 400;
 line-height: normal;
 }
 
-.header__links-list{
+.header__links-list {
   display: flex;
   gap: 32px;
   list-style-type: circle;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 
-.header__logo{
+.header__logo {
   display: inline;
   width: 139px;
   height: 105px;
   padding-left: 4px;
 }
 
-.address{
+.address {
   display: grid;
   justify-self: end;
   align-self: center;
@@ -167,7 +166,7 @@ line-height: normal;
   text-decoration: none;
 }
 
-.card{
+.card {
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
@@ -216,7 +215,7 @@ line-height: normal;
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
-  z-index: 2;  
+  z-index: 2;
 }
 
 .card__text {
@@ -268,7 +267,7 @@ line-height: normal;
   width: 148px;
   height: 114px;
   flex-shrink: 0;
-  margin: 63px 46px;   
+  margin: 63px 46px;
 }
 .about__title {
   color: #000;
@@ -316,7 +315,6 @@ line-height: normal;
 
 .address {
   color: #000;
-  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -358,8 +356,8 @@ line-height: normal;
 .footer__social-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   justify-content: flex-end;
   gap: 49px;
   list-style-type: none;
 }
+
