@@ -1,7 +1,6 @@
-/* место для вашего кода */
-/* место для вашего кода */
 body {
-  margin: auto;
+margin: auto;
+font-family: Raleway, sans-serif;
 }
 
 .header {
@@ -28,6 +27,11 @@ line-height: normal;
 
 .header__links-list-item_no-bullit {
   list-style: none;
+}
+
+.header__links-list-item {
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .header__logo {
@@ -191,7 +195,7 @@ line-height: normal;
 }
 
 .card_type_film {
-  background-image: url(../images/card-lot-01.jpg); 
+  background-image: url(../images/card-lot-01.jpg);
   padding: 50px 40px 20px 40px;
 }
 
@@ -314,7 +318,6 @@ line-height: normal;
 }
 
 .address {
-  color: #000;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -360,4 +363,3 @@ line-height: normal;
   gap: 49px;
   list-style-type: none;
 }
-
