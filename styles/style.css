@@ -54,7 +54,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1440px;
-  max-height: 757px;
   z-index: 1;
   position: relative;
   margin-left: auto;
@@ -116,7 +115,7 @@
   font-size: 22px;
   position: relative;
   gap: 80px;
-  padding: 118px 50px 70px;
+  padding: 118px 50px 50px;
   z-index: 1;
 }
 
